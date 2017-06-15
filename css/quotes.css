@@ -1,28 +1,42 @@
+body{
+	background: black;
+}
 .wrapper{
 	position: absolute;
 	top: 30%;
 	left: 30%;
-	background: blue;
+	border-radius: 10px;
+	background: white;
 	min-width: 600px;
 	max-width: 600px;
-	min-height: 190px;
+	min-height: 210px;
 }
+
 #quote{
-	background: red;
-	/*max-width: 500px;*/
-	width: 430px;
+	background: inherit;
+	width: 490px;
 	max-height: 180px;
 	position: relative;
-	/*margin-top: 10px;*/
+	font-size: 16px;
 	top: 25px;
 	margin:0 auto;
-	/*width: auto;*/
 	height: auto;
-	/*vertical-align: top;*/
 }
+
 #quoteGen{
+	background-color: #4CAF50;
+	border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 10px;
 	position: absolute;
-	margin-top: 1px;
-	bottom: 0px;
-	right: 0px;
+	/*margin-top: 1px;*/
+	bottom: 5px;
+	right: 5px;
 }
