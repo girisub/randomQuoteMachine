@@ -1,0 +1,28 @@
+.wrapper{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	background: blue;
+	min-width: 600px;
+	max-width: 600px;
+	min-height: 190px;
+}
+#quote{
+	background: red;
+	/*max-width: 500px;*/
+	width: 430px;
+	max-height: 180px;
+	position: relative;
+	/*margin-top: 10px;*/
+	top: 25px;
+	margin:0 auto;
+	/*width: auto;*/
+	height: auto;
+	/*vertical-align: top;*/
+}
+#quoteGen{
+	position: absolute;
+	margin-top: 1px;
+	bottom: 0px;
+	right: 0px;
+}
